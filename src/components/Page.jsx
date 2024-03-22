@@ -25,7 +25,7 @@ const Page = () => {
         {data.map((mydata, index) => (
           <div
             key={index}
-            className=" bg-[white] justify-center rounded-[10px] flex items-center h-[250px]  w-[250px] text-[#000] card"
+            className=" bg-[white] justify-center rounded-[10px] flex items-center h-[250px]  w-[250px] text-[#000] card font-bold"
           >
             <p>{mydata.text}</p>
           </div>
